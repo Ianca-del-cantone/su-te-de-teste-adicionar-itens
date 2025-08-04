@@ -6,6 +6,7 @@ Aqui documento, de forma prática e estratégica, a criação de uma suíte de t
 A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e reforçar a importância de uma suíte de testes bem estruturada como apoio à análise e automação.
 
 
+
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
 
@@ -127,11 +128,12 @@ Ela serve para garantir que a aplicação esteja funcionando conforme o esperado
 A linguagem Gherkin é usada para escrever casos de teste de forma simples e legível, mesmo por pessoas não técnicas.
 Ela segue o formato:
 
-Cenário: Adicionar item na lista
-Dado que estou na aplicação
-Quando visualizo o campo de input
-Então consigo digitar um texto
-E o campo exibe o placeholder "O que preciso fazer?"
+```
+Cenário: [descrição do cenário]  
+Dado que [estado inicial]  
+Quando [ação realizada]  
+Então [resultado esperado]  
+```
 
 Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders, pois descreve o comportamento do sistema pela ótica do usuário.
 
