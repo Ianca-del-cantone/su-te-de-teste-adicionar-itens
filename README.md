@@ -161,11 +161,13 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 
 ---
 
-## ✅ Critérios de Aceite (Gherkin)
-Cenário: Adicionar item na lista
-Dado que estou na aplicação
-Quando digito "Estudar para prova" no campo de entrada e pressiono Enter
-Então o item deve ser adicionado e exibido na lista de tarefas
+## ✅ Critérios de Aceite (Gherkin)  
+
+**Cenário:** Adicionar item na lista  
+**Dado que** estou na aplicação  
+**Quando** digito um texto no campo de entrada e pressiono Enter  
+**Então** o item deve ser adicionado e exibido na lista de tarefas  
+
 
 ---
 
