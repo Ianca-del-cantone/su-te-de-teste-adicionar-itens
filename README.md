@@ -178,13 +178,14 @@ Então o item deve ser adicionado e exibido na lista de tarefas
 
 ---
 
-## 🧠 Sobre os Casos de Teste
+## 📝 Sobre os Casos de Teste  
 Todos os testes foram escritos com foco em:
 
--Cobrir os principais comportamentos esperados
--Usar exemplos realistas (como "Estudar para prova", "Comprar ração")
--Trabalhar com critérios claros e mensuráveis
--Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
+- Cobrir os principais comportamentos esperados  
+- Usar exemplos realistas (como "Estudar para prova", "Comprar ração")  
+- Trabalhar com critérios claros e mensuráveis  
+- Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
+
 
 ---
 
