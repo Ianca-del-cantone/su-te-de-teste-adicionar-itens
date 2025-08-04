@@ -1,4 +1,27 @@
-## 🧾 Documentação de Qualidade: Suíte de Testes na Prática
+# 🧾 Documentação de Qualidade: Suíte de Testes na Prática
+
+Este repositório é parte do meu processo de aprendizado em QA.
+Aqui documento, de forma prática e estratégica, a criação de uma suíte de testes baseada em critérios de aceite escritos em Gherkin. O foco é exercitar o olhar analítico sobre funcionalidades, organizar testes de forma clara e treinar o raciocínio necessário para garantir a qualidade de uma aplicação.
+
+A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e reforçar a importância de uma suíte de testes bem estruturada como apoio à análise e automação.
+
+---
+
+## 🧪 O que é uma Suíte de Testes?
+Uma suíte de testes é um conjunto organizado de casos de teste voltados a validar o comportamento de uma funcionalidade ou fluxo completo.
+Ela serve para garantir que a aplicação esteja funcionando conforme o esperado, além de ajudar a identificar rapidamente erros e regressões.
+
+- Ter uma suíte bem documentada é essencial para:
+
+- Cobrir os principais cenários e variações
+
+- Facilitar a execução manual e futura automação
+
+- Ajudar na rastreabilidade dos testes
+
+- Manter consistência na validação de funcionalidades
+
+- Apoiar entregas com mais confiança
 
 
 
