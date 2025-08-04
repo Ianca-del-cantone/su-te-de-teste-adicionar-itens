@@ -1,4 +1,7 @@
-<div style="overflow-x:auto;">
+<details>
+  <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
+
+<br>
 
 <table>
   <thead>
@@ -17,77 +20,77 @@
   <tbody>
     <tr>
       <td>CT01</td>
-      <td>Adicionar um novo item à lista de tarefas</td>
-      <td>Dado que o usuário digita "Estudar para prova" no campo de entrada<br>Quando pressiona a tecla Enter<br>Então o item deve ser adicionado e exibido na lista de tarefas</td>
+      <td>Adicionar item à lista</td>
+      <td>Dado que o usuário digita "Estudar para prova"<br>Quando pressiona Enter<br>Então o item deve ser exibido na lista</td>
       <td>Alta</td>
       <td>Crítica</td>
-      <td>Então o item deve ser adicionado e exibido na lista de tarefas</td>
+      <td>Então o item deve ser exibido na lista</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Concluído</td>
     </tr>
     <tr>
       <td>CT02</td>
-      <td>Exibir ícone de seleção para marcar conclusão do item</td>
-      <td>Dado que possuo ao menos um item "Comprar ração" na lista<br>Quando passo o mouse sobre o item<br>Então um ícone de seleção (checkbox) deve ser exibido à esquerda do item</td>
+      <td>Ícone de seleção</td>
+      <td>Dado que haja o item "Comprar ração"<br>Quando passo o mouse<br>Então um checkbox deve ser exibido à esquerda</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Então um ícone de seleção (checkbox) deve ser exibido à esquerda do item "Comprar ração"</td>
+      <td>Então um checkbox deve ser exibido à esquerda</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Concluído</td>
     </tr>
     <tr>
       <td>CT03</td>
-      <td>Exibir botão de exclusão ao passar o mouse sobre o item</td>
-      <td>Dado que exista ao menos um item "Estudar para prova" na lista de tarefas<br>Quando o usuário posiciona o mouse sobre o item<br>Então deve ser exibido um botão de exclusão (ícone "X" vermelho)</td>
+      <td>Botão de exclusão</td>
+      <td>Dado que haja o item "Estudar para prova"<br>Quando passo o mouse<br>Então um "X" vermelho deve ser exibido à direita</td>
       <td>Média</td>
       <td>Média</td>
-      <td>Então deve ser exibido um botão de exclusão (ícone "X" vermelho) à direita do item "Estudar para prova"</td>
+      <td>Então um "X" vermelho deve ser exibido à direita</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Concluído</td>
     </tr>
     <tr>
       <td>CT04</td>
-      <td>Exibição do rodapé após criação da lista</td>
-      <td>Dado que a lista de itens foi criada<br>Então um rodapé deve ser exibido ao final dessa lista</td>
+      <td>Rodapé visível</td>
+      <td>Dado que haja itens<br>Então um rodapé deve ser exibido</td>
       <td>Média</td>
       <td>Baixa</td>
-      <td>Então um rodapé deve ser exibido ao final da lista</td>
+      <td>Então um rodapé deve ser exibido</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Concluído</td>
     </tr>
     <tr>
       <td>CT05</td>
-      <td>Exibição do contador e dos filtros no rodapé</td>
-      <td>Dado que o rodapé esteja visível<br>Então deve ser exibido:<br>- Um contador com a quantidade de itens restantes<br>- As opções de filtro: "All", "Active" e "Completed"</td>
+      <td>Contador e filtros</td>
+      <td>Dado que o rodapé esteja visível<br>Então deve exibir:<br>- Contador<br>- Filtros "All", "Active", "Completed"</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Então deve ser exibido:<br>- Um contador com a quantidade de itens restantes<br>- As opções de filtro: "All", "Active" e "Completed"</td>
+      <td>Então deve exibir o contador e os filtros</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Concluído</td>
     </tr>
     <tr>
       <td>CT06</td>
-      <td>Adicionar item com caracteres especiais</td>
-      <td>Dado que o usuário digita um item com caracteres especiais (ex: "Comprar ração @ petshop #1")<br>Quando pressiona a tecla Enter<br>Então o item deve ser exibido exatamente como digitado</td>
+      <td>Caracteres especiais</td>
+      <td>Dado que digite "Comprar ração @ loja #1"<br>Quando pressionar Enter<br>Então o item deve ser exibido com os caracteres</td>
       <td>Baixa</td>
       <td>Baixa</td>
-      <td>Então o item deve ser adicionado e exibido na lista com todos os caracteres preservados</td>
+      <td>Então o item deve ser exibido com os caracteres</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Aberto</td>
     </tr>
     <tr>
       <td>CT07</td>
-      <td>Remover item da lista usando o botão de exclusão</td>
-      <td>Dado que exista um item "Estudar para prova" na lista<br>Quando o usuário clica no botão de exclusão (ícone "X" vermelho)<br>Então o item deve ser removido da lista</td>
+      <td>Remover item</td>
+      <td>Dado que haja o item "Estudar para prova"<br>Quando clicar no "X" vermelho<br>Então o item deve ser removido da lista</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Então o item deve ser removido da lista e não aparece mais</td>
+      <td>Então o item deve ser removido da lista</td>
       <td>Passou conforme esperado</td>
       <td>—</td>
       <td>Aberto</td>
@@ -95,34 +98,4 @@
   </tbody>
 </table>
 
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
