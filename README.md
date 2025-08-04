@@ -1,4 +1,4 @@
-# 🧾 Documentação de Qualidade: Suíte de Testes na Prática
+# 🧾 Suíte de Testes na Prática
 
 Este repositório é parte do meu processo de aprendizado em QA.
 Aqui documento, de forma prática e estratégica, a criação de uma suíte de testes baseada em critérios de aceite escritos em Gherkin. O foco é exercitar o olhar analítico sobre funcionalidades, organizar testes de forma clara e treinar o raciocínio necessário para garantir a qualidade de uma aplicação.
@@ -189,11 +189,13 @@ Todos os testes foram escritos com foco em:
 
 ---
 
-## 🛠️ Objetivo do Projeto
-Praticar documentação de testes com foco em clareza e estrutura
+## 🎯 Objetivo do Projeto  
+Praticar documentação de testes com foco em clareza e estrutura.
 
--Simular um fluxo real de validação funcional
--Reforçar o uso de Gherkin como ponte entre negócio e testes
+- Simular um fluxo real de validação funcional  
+- Reforçar o uso de Gherkin como ponte entre negócio e testes  
+- Criar um repositório público com foco em documentação de qualidade  
+
 
 ---
 
