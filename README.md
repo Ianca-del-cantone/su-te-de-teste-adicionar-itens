@@ -194,8 +194,7 @@ Praticar documentação de testes com foco em clareza e estrutura.
 
 - Simular um fluxo real de validação funcional  
 - Reforçar o uso de Gherkin como ponte entre negócio e testes  
-- Criar um repositório público com foco em documentação de qualidade  
-
+- Desenvolver habilidades práticas essenciais para a atuação em QA
 
 ---
 
