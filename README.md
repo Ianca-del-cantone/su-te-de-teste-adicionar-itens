@@ -127,10 +127,11 @@ Ela serve para garantir que a aplicação esteja funcionando conforme o esperado
 A linguagem Gherkin é usada para escrever casos de teste de forma simples e legível, mesmo por pessoas não técnicas.
 Ela segue o formato:
 
-Cenário: [descrição do cenário]
-Dado que [estado inicial]
-Quando [ação realizada]
-Então [resultado esperado]
+Cenário: Adicionar item na lista
+Dado que estou na aplicação
+Quando visualizo o campo de input
+Então consigo digitar um texto
+E o campo exibe o placeholder "O que preciso fazer?"
 
 Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders, pois descreve o comportamento do sistema pela ótica do usuário.
 
@@ -155,7 +156,7 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 -RN2: O item só pode ser adicionado se o campo não estiver vazio
 -RN3: Caracteres especiais devem ser aceitos no texto do item
 
-****
+---
 
 ## ✅ Critérios de Aceite (Gherkin)
 Cenário: Adicionar item na lista
@@ -184,7 +185,7 @@ Todos os testes foram escritos com foco em:
 
 ---
 
-🛠️ Objetivo do Projeto
+## 🛠️ Objetivo do Projeto
 Praticar documentação de testes com foco em clareza e estrutura
 
 -Simular um fluxo real de validação funcional
