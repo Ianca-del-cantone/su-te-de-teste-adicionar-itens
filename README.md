@@ -145,9 +145,9 @@ Funcionalidade extraída do site TODO MVC, com foco em simular testes de uma lis
 
 ---
 
-## 📝 User Story
-Eu, como usuária da aplicação
-Gostaria de adicionar novos itens à minha lista de tarefas
+📝 User Story  
+Eu, como usuária da aplicação  
+Gostaria de adicionar novos itens à minha lista de tarefas  
 Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 
 ---
