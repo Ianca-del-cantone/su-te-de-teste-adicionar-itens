@@ -6,6 +6,8 @@ Aqui documento, de forma prática e estratégica, a criação de uma suíte de t
 A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e reforçar a importância de uma suíte de testes bem estruturada como apoio à análise e automação.
 
 
+🔗 Site utilizado nos testes: TodoMVC - React
+
 
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
