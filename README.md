@@ -150,7 +150,7 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 
 ---
 
-##📌 Regras de Negócio
+## 📌 Regras de Negócio
 
 -RN1: O campo de input deve conter o placeholder “O que preciso fazer?”
 -RN2: O item só pode ser adicionado se o campo não estiver vazio
