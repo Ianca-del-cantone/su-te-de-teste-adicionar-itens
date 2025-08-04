@@ -5,27 +5,6 @@ Aqui documento, de forma prática e estratégica, a criação de uma suíte de t
 
 A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e reforçar a importância de uma suíte de testes bem estruturada como apoio à análise e automação.
 
----
-
-## 🧪 O que é uma Suíte de Testes?
-Uma suíte de testes é um conjunto organizado de casos de teste voltados a validar o comportamento de uma funcionalidade ou fluxo completo.
-Ela serve para garantir que a aplicação esteja funcionando conforme o esperado, além de ajudar a identificar rapidamente erros e regressões.
-
-- Ter uma suíte bem documentada é essencial para:
-
-- Cobrir os principais cenários e variações
-
-- Facilitar a execução manual e futura automação
-
-- Ajudar na rastreabilidade dos testes
-
-- Manter consistência na validação de funcionalidades
-
-- Apoiar entregas com mais confiança
-
-
-
-
 
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
@@ -128,3 +107,113 @@ Ela serve para garantir que a aplicação esteja funcionando conforme o esperado
 </table>
 
 </details>
+
+---
+
+## 🧪 O que é uma Suíte de Testes?
+Uma suíte de testes é um conjunto organizado de casos de teste voltados a validar o comportamento de uma funcionalidade ou fluxo completo.
+Ela serve para garantir que a aplicação esteja funcionando conforme o esperado, além de ajudar a identificar rapidamente erros e regressões.
+
+- Ter uma suíte bem documentada é essencial para:
+- Cobrir os principais cenários e variações
+- Facilitar a execução manual e futura automação
+- Ajudar na rastreabilidade dos testes
+- Manter consistência na validação de funcionalidades
+- Apoiar entregas com mais confiança
+
+---
+
+## ✍️ Linguagem Gherkin
+A linguagem Gherkin é usada para escrever casos de teste de forma simples e legível, mesmo por pessoas não técnicas.
+Ela segue o formato:
+
+Cenário: [descrição do cenário]
+Dado que [estado inicial]
+Quando [ação realizada]
+Então [resultado esperado]
+
+Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders, pois descreve o comportamento do sistema pela ótica do usuário.
+
+---
+
+## 🧩 Funcionalidade
+Adicionar item à lista de tarefas
+Funcionalidade extraída do site TODO MVC, com foco em simular testes de uma lista interativa de tarefas.
+
+---
+
+## 📝 User Story
+Eu, como usuária da aplicação
+Gostaria de adicionar novos itens à minha lista de tarefas
+Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
+
+---
+
+##📌 Regras de Negócio
+
+-RN1: O campo de input deve conter o placeholder “O que preciso fazer?”
+-RN2: O item só pode ser adicionado se o campo não estiver vazio
+-RN3: Caracteres especiais devem ser aceitos no texto do item
+
+****
+
+## ✅ Critérios de Aceite (Gherkin)
+Cenário: Adicionar item na lista
+Dado que estou na aplicação
+Quando digito "Estudar para prova" no campo de entrada e pressiono Enter
+Então o item deve ser adicionado e exibido na lista de tarefas
+
+---
+
+## 🧠 Diferença entre Prioridade e Severidade
+
+| Conceito       | O que significa                                                        | Quem define          |
+| -------------- | ---------------------------------------------------------------------- | -------------------- |
+| **Prioridade** | Define o quão rápido o teste deve ser executado ou o defeito resolvido | Time de produto / QA |
+| **Severidade** | Mede o impacto técnico do problema no sistema                          | Time de QA           |
+
+---
+
+## 🧠 Sobre os Casos de Teste
+Todos os testes foram escritos com foco em:
+
+-Cobrir os principais comportamentos esperados
+-Usar exemplos realistas (como "Estudar para prova", "Comprar ração")
+-Trabalhar com critérios claros e mensuráveis
+-Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
+
+---
+
+🛠️ Objetivo do Projeto
+Praticar documentação de testes com foco em clareza e estrutura
+
+-Simular um fluxo real de validação funcional
+-Reforçar o uso de Gherkin como ponte entre negócio e testes
+
+---
+
+## 📌 Observação
+Este projeto não contém código-fonte, pois o foco está na documentação de testes e raciocínio analítico em QA.
+É um exercício essencial para fortalecer a base teórica e desenvolver uma visão crítica sobre o que deve ser testado em uma aplicação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
