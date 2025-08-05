@@ -1,4 +1,4 @@
-# 🧾 Suíte de Testes na Prática - Adicionar itens á lista
+# 🧾 Suíte de Testes - Adicionar itens à lista
 
 Este repositório é parte do meu processo de aprendizado em QA.
 Aqui documento, de forma prática e estratégica, a criação de uma suíte de testes baseada em critérios de aceite escritos em Gherkin. O foco é exercitar o olhar analítico sobre funcionalidades, organizar testes de forma clara e treinar o raciocínio necessário para garantir a qualidade de uma aplicação.
