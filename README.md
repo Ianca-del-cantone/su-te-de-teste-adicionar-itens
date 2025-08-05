@@ -8,6 +8,7 @@ A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e
 
 🔗 **Site utilizado nos testes:** [TodoMVC - React](https://todomvc.com/examples/react/dist/) 
 
+
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
 
@@ -116,7 +117,7 @@ A ideia é treinar a clareza na escrita técnica, simular o dia a dia de um QA e
 Uma suíte de testes é um conjunto organizado de casos de teste voltados a validar o comportamento de uma funcionalidade ou fluxo completo.
 Ela serve para garantir que a aplicação esteja funcionando conforme o esperado, além de ajudar a identificar rapidamente erros e regressões.
 
-- Ter uma suíte bem documentada é essencial para:
+ Ter uma suíte bem documentada é essencial para:
 - Cobrir os principais cenários e variações
 - Facilitar a execução manual e futura automação
 - Ajudar na rastreabilidade dos testes
@@ -164,11 +165,10 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 
 ## ✅ Critérios de Aceite (Gherkin)  
 
-**Cenário:** Adicionar item na lista  
-**Dado que** estou na aplicação  
-**Quando** digito um texto no campo de entrada e pressiono Enter  
-**Então** o item deve ser adicionado e exibido na lista de tarefas  
-
+**Cenário:** Visualizar todos os itens com o filtro "All"<br>  
+**Dado que** existem itens pendentes e concluídos na lista<br>  
+**Quando** seleciono o filtro "All"<br>  
+**Então** todos os itens devem aparecer conforme seu status  
 
 ---
 
@@ -185,7 +185,6 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 Todos os testes foram escritos com foco em:
 
 - Cobrir os principais comportamentos esperados  
-- Usar exemplos realistas (como "Estudar para prova", "Comprar ração")  
 - Trabalhar com critérios claros e mensuráveis  
 - Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
 
