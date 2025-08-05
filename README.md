@@ -165,10 +165,10 @@ Porque quero organizar e acompanhar o que preciso fazer no meu dia a dia
 
 ## ✅ Critérios de Aceite (Gherkin)  
 
-**Cenário:** Visualizar todos os itens com o filtro "All"<br>  
-**Dado que** existem itens pendentes e concluídos na lista<br>  
-**Quando** seleciono o filtro "All"<br>  
-**Então** todos os itens devem aparecer conforme seu status  
+**Cenário:** Adicionar item na lista
+**Dado que** Dado que estou na aplicação
+**Quando** digito um texto no campo de entrada e pressiono Enter
+**Então** o item deve ser adicionado e exibido na lista de tarefas
 
 ---
 
